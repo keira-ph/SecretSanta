@@ -4,17 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret Santa</title>
+    <title>Secret Santa</title>
     <!-- Aggiungi eventuali link a fogli di stile CSS qui -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: right;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <h1>Benvenuto a Secret Santa!</h1>
-        <!-- Aggiungi altre informazioni di intestazione qui -->
+        <button onclick="location.href='#'">Registrati</button>
     </header>
 
     <main>
-        <!-- Contenuto principale del tuo sito -->
+        <form action="#" method="post">
+            <h2>Login</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="submit" value="Accedi">
+        </form>
     </main>
 
     <footer>
